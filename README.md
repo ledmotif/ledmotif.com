@@ -92,3 +92,31 @@ https://www.ledmotif.com/
 ---
 
 **LED Motif – LED Işık Süsleme ve Dekorasyon Çözümleri.**
+
+## English Overview
+
+### LED Motif – LED Lighting Decorations and Outdoor Illuminations
+
+LED Motif provides decorative LED lighting, illuminated figures and custom lighting decoration solutions for streets, public spaces, businesses and outdoor environments.
+
+Our product categories include:
+
+- Illuminated Deer Decorations
+- Valentine's Day Decorations
+- Ramadan Decorations
+- LED Street Pole Motifs
+- Cafe and Restaurant Lighting Decorations
+- Illuminated Trees
+
+### Product Categories
+
+Explore our product collections through the official website:
+
+- [Illuminated Deer](https://www.ledmotif.com/isikli-geyik)
+- [Valentine's Day Decorations](https://www.ledmotif.com/sevgililer-gunu-suslemeleri)
+- [Ramadan Decorations](https://www.ledmotif.com/ramazan-suslemeleri)
+- [LED Pole Motifs](https://www.ledmotif.com/direk-motifleri)
+- [Cafe Lighting Decorations](https://www.ledmotif.com/cafe-isik-susleme)
+- [Illuminated Trees](https://www.ledmotif.com/isikli-agaclar)
+
+**Official Website:** https://www.ledmotif.com/
