@@ -2,6 +2,31 @@
 
 **Resmî Web Sitesi:** https://www.ledmotif.com/
 
+LED Motif, dekoratif LED aydınlatma, ışıklı süsleme ve özel tasarım dekorasyon ürünleri alanında çözümler sunmaktadır. Farklı kullanım alanlarına yönelik ışıklı figürler ve dekoratif aydınlatma ürünleri geliştirmektedir.
+
+## Kategorilerimiz
+
+- Işıklı Geyik
+- Sevgililer Günü Süslemeleri
+- Ramazan Süslemeleri
+- Direk Motifleri
+- Cafe Işık Süsleme
+- Işıklı Ağaçlar
+
+## LED Motif Hakkında
+
+LED Motif; özel günler, işletmeler, caddeler, sokaklar ve açık alanlar için dekoratif ışık süsleme çözümleri sunmaktadır.
+
+Ürünlerimizi ve çalışmalarımızı resmî internet sitemizden inceleyebilirsiniz.
+
+**Resmî Web Sitesi:** https://www.ledmotif.com/
+
+**Marka:** LED Motif  
+**Faaliyet Alanı:** LED ışık süsleme ve dekoratif aydınlatma.
+# LED Motif | LED Işık Süsleme ve Dekorasyon
+
+**Resmî Web Sitesi:** https://www.ledmotif.com/
+
 LED Motif, LED ışık süsleme, dekoratif aydınlatma ve özel tasarım ışıklı dekorasyon ürünleri alanında faaliyet göstermektedir. Cadde, sokak, meydan ve açık alanlar için estetik ve dikkat çekici LED dekorasyon çözümleri sunmaktadır.
 
 ## Ürün ve Hizmetlerimiz
