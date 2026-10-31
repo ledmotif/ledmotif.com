@@ -1,145 +1,469 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101010">
 
-<title>LED Motif | LED Işık Süsleme ve Dekorasyon</title>
+  <title>LED Motif | LED Işık Süsleme ve Dekorasyon</title>
+  <meta name="description" content="LED Motif; cadde ve sokak süslemeleri, ışıklı figürler, yılbaşı dekorasyonları ve özel günler için dekoratif LED aydınlatma ürünleri sunar.">
+  <meta name="robots" content="index, follow">
 
-<meta name="description" content="LED Motif; cadde, sokak, meydan ve açık alanlar için LED ışık süsleme, yılbaşı dekorasyonu ve ışıklı figür çözümleri sunar.">
+  <link rel="canonical" href="https://ledmotif.github.io/ledmotif.com/">
 
-<meta name="robots" content="index, follow">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LED Motif">
+  <meta property="og:title" content="LED Motif | LED Işık Süsleme ve Dekorasyon">
+  <meta property="og:description" content="Cadde, sokak, açık alan ve özel günler için dekoratif LED ışık süsleme ürünleri.">
+  <meta property="og:url" content="https://ledmotif.github.io/ledmotif.com/">
+  <meta property="og:image" content="https://www.ledmotif.com/images/urunler/isikli-metal-yilbasi-agaci-resim-636.webp">
+  <meta property="og:image:alt" content="LED Motif ışıklı metal yılbaşı ağacı">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LED Motif | LED Işık Süsleme ve Dekorasyon">
+  <meta name="twitter:description" content="Dekoratif LED aydınlatma, ışıklı figürler ve cadde süsleme ürünleri.">
+  <meta name="twitter:image" content="https://www.ledmotif.com/images/urunler/isikli-metal-yilbasi-agaci-resim-636.webp">
 
-<style>
-* { box-sizing: border-box; }
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "LED Motif",
+    "url": "https://ledmotif.github.io/ledmotif.com/",
+    "description": "LED ışık süsleme, dekoratif aydınlatma ve ışıklı dekorasyon ürünleri."
+  }
+  </script>
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #101010;
-    color: #eee;
-    line-height: 1.8;
-}
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #101010;
+      --surface: #191919;
+      --surface-soft: #151515;
+      --text: #f2f0eb;
+      --muted: #b9b5aa;
+      --gold: #e9bd55;
+      --gold-light: #f4d98e;
+      --border: #34312a;
+      --max-width: 1160px;
+    }
 
-header {
-    padding: 60px 20px;
-    text-align: center;
-    background: #191919;
-}
+    * { box-sizing: border-box; }
 
-h1 { color: white; }
+    html { scroll-behavior: smooth; }
 
-main {
-    max-width: 950px;
-    margin: auto;
-    padding: 30px 20px;
-}
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
 
-h2 { color: #e9bd55; }
+    a { color: var(--gold-light); }
+    a:hover { color: #fff; }
+    a:focus-visible { outline: 2px solid var(--gold-light); outline-offset: 4px; }
 
-.products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-    gap: 18px;
-}
+    .container {
+      width: min(var(--max-width), calc(100% - 40px));
+      margin-inline: auto;
+    }
 
-.product {
-    padding: 20px;
-    background: #1d1d1d;
-    border: 1px solid #333;
-    border-radius: 8px;
-}
+    .site-header {
+      border-bottom: 1px solid var(--border);
+      background: #151515;
+    }
 
-a { color: #e9bd55; }
+    .topbar {
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
 
-.button {
-    display: inline-block;
-    padding: 12px 24px;
-    background: #e9bd55;
-    color: #111;
-    text-decoration: none;
-    border-radius: 5px;
-}
+    .brand {
+      color: var(--text);
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-decoration: none;
+      white-space: nowrap;
+    }
 
-footer {
-    padding: 25px;
-    text-align: center;
-    background: #191919;
-}
-</style>
+    .brand span { color: var(--gold); }
+
+    .main-nav {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px 22px;
+    }
+
+    .main-nav a {
+      color: var(--muted);
+      font-size: .92rem;
+      text-decoration: none;
+    }
+
+    .main-nav a:hover { color: var(--gold-light); }
+
+    .hero {
+      padding: clamp(64px, 9vw, 112px) 20px;
+      text-align: center;
+      background:
+        radial-gradient(ellipse at 50% 0%, rgba(233, 189, 85, .12), transparent 54%),
+        linear-gradient(180deg, #191919 0%, #101010 100%);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      margin: 0 0 14px;
+      color: var(--gold);
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      color: #fff;
+      font-size: clamp(2.35rem, 6vw, 4.3rem);
+      line-height: 1.12;
+      letter-spacing: -.04em;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin: 20px auto 28px;
+      color: var(--muted);
+      font-size: clamp(1rem, 2vw, 1.15rem);
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 48px;
+      align-items: center;
+      justify-content: center;
+      padding: 11px 22px;
+      border: 1px solid var(--gold);
+      border-radius: 4px;
+      background: var(--gold);
+      color: #17130a;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background .2s ease, border-color .2s ease, transform .2s ease;
+    }
+
+    .button:hover {
+      border-color: var(--gold-light);
+      background: var(--gold-light);
+      color: #17130a;
+      transform: translateY(-1px);
+    }
+
+    main { padding-block: 26px 70px; }
+
+    section { padding-block: 42px; scroll-margin-top: 24px; }
+
+    .section-heading { margin-bottom: 24px; }
+
+    h2 {
+      margin: 0 0 8px;
+      color: var(--gold);
+      font-size: clamp(1.6rem, 3vw, 2.1rem);
+      line-height: 1.25;
+    }
+
+    .section-intro {
+      max-width: 780px;
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .category-link {
+      display: flex;
+      min-height: 74px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 17px 18px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: var(--surface-soft);
+      color: var(--text);
+      font-weight: 700;
+      text-decoration: none;
+      transition: border-color .2s ease, background .2s ease;
+    }
+
+    .category-link::after {
+      content: "→";
+      color: var(--gold);
+      font-size: 1.2rem;
+    }
+
+    .category-link:hover {
+      border-color: var(--gold);
+      background: var(--surface);
+      color: var(--gold-light);
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .product-card {
+      overflow: hidden;
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      background: var(--surface);
+    }
+
+    .product-image-link {
+      display: block;
+      overflow: hidden;
+      background: #0b0b0b;
+    }
+
+    .product-card img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: contain;
+      padding: 10px;
+      transition: transform .25s ease;
+    }
+
+    .product-image-link:hover img { transform: scale(1.025); }
+
+    .product-content { padding: 18px 20px 20px; }
+
+    .product-content h3 {
+      margin: 0 0 12px;
+      color: #fff;
+      font-size: 1.15rem;
+      line-height: 1.35;
+    }
+
+    .product-link {
+      display: inline-block;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px 32px;
+    }
+
+    .service-item {
+      padding: 15px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .service-item h3 {
+      margin: 0 0 5px;
+      color: #fff;
+      font-size: 1.05rem;
+    }
+
+    .service-item p, .about-copy { margin: 0; color: var(--muted); }
+
+    .about-panel {
+      padding: clamp(22px, 4vw, 36px);
+      border-left: 3px solid var(--gold);
+      background: var(--surface-soft);
+    }
+
+    .about-panel p + p { margin-top: 12px; }
+
+    .site-footer {
+      padding: 28px 0;
+      border-top: 1px solid var(--border);
+      background: #151515;
+    }
+
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+    }
+
+    .footer-inner p { margin: 0; color: var(--muted); font-size: .92rem; }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 16px; }
+    .footer-links a { text-decoration: none; }
+
+    @media (max-width: 760px) {
+      .topbar { padding-block: 14px; flex-direction: column; align-items: flex-start; gap: 10px; }
+      .main-nav { justify-content: flex-start; gap: 8px 16px; }
+      .category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 540px) {
+      .container { width: min(100% - 30px, var(--max-width)); }
+      .category-grid, .product-grid, .service-grid { grid-template-columns: 1fr; }
+      .hero { padding-inline: 15px; }
+      section { padding-block: 32px; }
+      .footer-inner { align-items: flex-start; flex-direction: column; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; }
+    }
+  </style>
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container topbar">
+      <a class="brand" href="#anasayfa" aria-label="LED Motif ana sayfa">LED <span>MOTİF</span></a>
+      <nav class="main-nav" aria-label="Ana menü">
+        <a href="#kategoriler">Kategoriler</a>
+        <a href="#urunler">Öne Çıkan Ürünler</a>
+        <a href="#hizmetler">Ürün ve Hizmetler</a>
+        <a href="#hakkimizda">Hakkımızda</a>
+      </nav>
+    </div>
+  </header>
 
-<header>
-<h1>LED Motif</h1>
-<p>LED Işık Süsleme ve Dekorasyon Çözümleri</p>
-<a class="button" href="https://www.ledmotif.com/">
-Resmî Web Sitesini Ziyaret Et
-</a>
-</header>
+  <div class="hero" id="anasayfa">
+    <p class="eyebrow">LED Işık Süsleme ve Dekorasyon</p>
+    <h1>LED Motif</h1>
+    <p>Cadde, sokak, meydan ve açık alanlar için dekoratif LED aydınlatma, ışıklı figür ve özel gün süsleme ürünleri.</p>
+    <a class="button" href="https://www.ledmotif.com/" target="_blank" rel="noopener noreferrer">Resmî Web Sitesini Ziyaret Et</a>
+  </div>
 
-<main>
+  <main class="container">
+    <section id="kategoriler" aria-labelledby="kategoriler-baslik">
+      <div class="section-heading">
+        <h2 id="kategoriler-baslik">LED Dekorasyon Kategorilerimiz</h2>
+        <p class="section-intro">LED Motif ürün gruplarını kullanım alanına ve dekorasyon konseptine göre inceleyebilirsiniz.</p>
+      </div>
+      <div class="category-grid">
+        <a class="category-link" href="https://www.ledmotif.com/isikli-geyik" target="_blank" rel="noopener noreferrer">Işıklı Geyik</a>
+        <a class="category-link" href="https://www.ledmotif.com/sevgililer-gunu-suslemeleri" target="_blank" rel="noopener noreferrer">Sevgililer Günü Süslemeleri</a>
+        <a class="category-link" href="https://www.ledmotif.com/ramazan-suslemeleri" target="_blank" rel="noopener noreferrer">Ramazan Süslemeleri</a>
+        <a class="category-link" href="https://www.ledmotif.com/direk-motifleri" target="_blank" rel="noopener noreferrer">Direk Motifleri</a>
+        <a class="category-link" href="https://www.ledmotif.com/cafe-isik-susleme" target="_blank" rel="noopener noreferrer">Cafe Işık Süsleme</a>
+        <a class="category-link" href="https://www.ledmotif.com/isikli-agaclar" target="_blank" rel="noopener noreferrer">Işıklı Ağaçlar</a>
+      </div>
+    </section>
 
-<section>
-<h2>LED Işık Süsleme ve Dekorasyon</h2>
-<p>
-LED Motif, dekoratif LED aydınlatma, ışıklı süsleme
-ve özel tasarım dekorasyon ürünleri sunmaktadır.
-Cadde, sokak, meydan ve açık alanlar için farklı
-konseptlerde ışıklı dekorasyon çözümleri geliştirmektedir.
-</p>
-</section>
+    <section id="urunler" aria-labelledby="urunler-baslik">
+      <div class="section-heading">
+        <h2 id="urunler-baslik">Öne Çıkan LED Motif Ürünleri</h2>
+        <p class="section-intro">Yılbaşı, özel gün ve cadde dekorasyonları için seçili ışıklı ürünleri fotoğraflarıyla inceleyin.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <a class="product-image-link" href="https://www.ledmotif.com/isikli-metal-yilbasi-agaci" target="_blank" rel="noopener noreferrer" aria-label="Işıklı Metal Yılbaşı Ağacı ürün sayfası">
+            <img src="https://www.ledmotif.com/images/urunler/isikli-metal-yilbasi-agaci-resim-636.webp" alt="Işıklı metal yılbaşı ağacı dekorasyonu" loading="lazy" decoding="async">
+          </a>
+          <div class="product-content">
+            <h3>Işıklı Metal Yılbaşı Ağacı</h3>
+            <a class="product-link" href="https://www.ledmotif.com/isikli-metal-yilbasi-agaci" target="_blank" rel="noopener noreferrer">Ürün sayfasını incele →</a>
+          </div>
+        </article>
 
-<section>
-<h2>Ürün ve Hizmetlerimiz</h2>
+        <article class="product-card">
+          <a class="product-image-link" href="https://www.ledmotif.com/isikli-geyik-arabasi" target="_blank" rel="noopener noreferrer" aria-label="Işıklı Geyik Arabası ürün sayfası">
+            <img src="https://www.ledmotif.com/images/urunler/isikli-geyik-arabasi-resim-558.webp" alt="Işıklı geyik arabası dekoratif figürü" loading="lazy" decoding="async">
+          </a>
+          <div class="product-content">
+            <h3>Işıklı Geyik Arabası</h3>
+            <a class="product-link" href="https://www.ledmotif.com/isikli-geyik-arabasi" target="_blank" rel="noopener noreferrer">Ürün sayfasını incele →</a>
+          </div>
+        </article>
 
-<div class="products">
+        <article class="product-card">
+          <a class="product-image-link" href="https://www.ledmotif.com/sevgililer-gunu-karsilama-tagi" target="_blank" rel="noopener noreferrer" aria-label="Sevgililer Günü Karşılama Tagı ürün sayfası">
+            <img src="https://www.ledmotif.com/images/urunler/sevgililer-gunu-karsilama-tagi-resim-392.jpg" alt="Sevgililer Günü ışıklı karşılama tagı" loading="lazy" decoding="async">
+          </a>
+          <div class="product-content">
+            <h3>Sevgililer Günü Karşılama Tagı</h3>
+            <a class="product-link" href="https://www.ledmotif.com/sevgililer-gunu-karsilama-tagi" target="_blank" rel="noopener noreferrer">Ürün sayfasını incele →</a>
+          </div>
+        </article>
 
-<div class="product">
-<h3>Cadde ve Sokak Süslemeleri</h3>
-<p>Direk motifleri ve dekoratif LED ışık süslemeleri.</p>
-</div>
+        <article class="product-card">
+          <a class="product-image-link" href="https://www.ledmotif.com/led-cadde-ustu-susleme" target="_blank" rel="noopener noreferrer" aria-label="LED Cadde Üstü Süsleme ürün sayfası">
+            <img src="https://www.ledmotif.com/images/urunler/led-cadde-ustu-susleme-resim-626.webp" alt="LED cadde üstü dekoratif ışık süslemesi" loading="lazy" decoding="async">
+          </a>
+          <div class="product-content">
+            <h3>LED Cadde Üstü Süsleme</h3>
+            <a class="product-link" href="https://www.ledmotif.com/led-cadde-ustu-susleme" target="_blank" rel="noopener noreferrer">Ürün sayfasını incele →</a>
+          </div>
+        </article>
+      </div>
+    </section>
 
-<div class="product">
-<h3>Yılbaşı Dekorasyonları</h3>
-<p>Işıklı geyik, yıldız, kar tanesi ve yılbaşı figürleri.</p>
-</div>
+    <section id="hizmetler" aria-labelledby="hizmetler-baslik">
+      <div class="section-heading">
+        <h2 id="hizmetler-baslik">Ürün ve Hizmetlerimiz</h2>
+        <p class="section-intro">Farklı dekorasyon ihtiyaçlarına yönelik LED ışık süsleme ürün grupları.</p>
+      </div>
+      <div class="service-grid">
+        <div class="service-item">
+          <h3>Cadde ve Sokak Süslemeleri</h3>
+          <p>Direk motifleri ve açık alanlar için dekoratif LED ışık süslemeleri.</p>
+        </div>
+        <div class="service-item">
+          <h3>Yılbaşı Dekorasyonları</h3>
+          <p>Işıklı geyik, ağaç ve farklı yılbaşı konseptlerine yönelik figürler.</p>
+        </div>
+        <div class="service-item">
+          <h3>LED Işıklı Figürler</h3>
+          <p>Farklı tasarım ve ölçülerde dekoratif ışıklı ürün seçenekleri.</p>
+        </div>
+        <div class="service-item">
+          <h3>Özel Gün Dekorasyonları</h3>
+          <p>Sevgililer Günü ve diğer özel gün konseptleri için ışıklı dekorlar.</p>
+        </div>
+        <div class="service-item">
+          <h3>Dış Mekân LED Süslemeleri</h3>
+          <p>Meydan, park, bahçe ve açık alanlara yönelik dekoratif aydınlatma.</p>
+        </div>
+        <div class="service-item">
+          <h3>İşletme Dekorasyonları</h3>
+          <p>Kafe, restoran ve ticari alanlar için ışık süsleme seçenekleri.</p>
+        </div>
+      </div>
+    </section>
 
-<div class="product">
-<h3>LED Işıklı Figürler</h3>
-<p>Farklı ölçülerde dekoratif ışıklı ürünler.</p>
-</div>
+    <section id="hakkimizda" aria-labelledby="hakkimizda-baslik">
+      <div class="section-heading">
+        <h2 id="hakkimizda-baslik">LED Motif Hakkında</h2>
+      </div>
+      <div class="about-panel">
+        <p class="about-copy">LED Motif; dekoratif LED aydınlatma, ışıklı süsleme ve özel tasarım dekorasyon ürünleri alanında farklı kullanım ihtiyaçlarına yönelik seçenekler sunar.</p>
+        <p class="about-copy">Ürünlerin ölçü, ışık rengi, elektrik bağlantısı, koruma sınıfı ve kullanım koşulları modele göre değişebilir. Güncel ürün açıklamaları ve ayrıntılı bilgiler için resmî internet sitemizi ziyaret edebilirsiniz.</p>
+        <p><a class="product-link" href="https://www.ledmotif.com/" target="_blank" rel="noopener noreferrer">www.ledmotif.com →</a></p>
+      </div>
+    </section>
+  </main>
 
-<div class="product">
-<h3>Dış Mekân LED Süslemeleri</h3>
-<p>Açık alanlara yönelik dekoratif aydınlatma çözümleri.</p>
-</div>
-
-</div>
-</section>
-
-<section>
-<h2>LED Motif Hakkında</h2>
-<p>
-LED Motif, ışık süsleme ve dekoratif aydınlatma
-alanında farklı projelere yönelik ürün seçenekleri sunar.
-</p>
-<p>
-Ürünlerimizi ve çalışmalarımızı resmî internet sitemizden
-inceleyebilirsiniz.
-</p>
-<a href="https://www.ledmotif.com/">
-www.ledmotif.com
-</a>
-</section>
-
-</main>
-
-<footer>
-<p>LED Motif | LED Işık Süsleme ve Dekorasyon</p>
-<a href="https://www.ledmotif.com/">Resmî Web Sitesi</a>
-</footer>
-
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> LED Motif | LED Işık Süsleme ve Dekorasyon</p>
+      <div class="footer-links">
+        <a href="https://www.ledmotif.com/" target="_blank" rel="noopener noreferrer">Resmî Web Sitesi</a>
+        <a href="https://github.com/ledmotif/ledmotif.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
