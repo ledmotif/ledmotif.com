@@ -6,12 +6,37 @@ LED Motif, dekoratif LED aydınlatma, ışıklı süsleme ve özel tasarım deko
 
 ## Kategorilerimiz
 
-- Işıklı Geyik
-- Sevgililer Günü Süslemeleri
-- Ramazan Süslemeleri
-- Direk Motifleri
-- Cafe Işık Süsleme
-- Işıklı Ağaçlar
+LED Motif ürün ve dekorasyon çalışmalarını aşağıdaki kategorilerden inceleyebilirsiniz.
+
+### 1. Işıklı Geyik
+Yılbaşı ve özel dekorasyon projeleri için ışıklı geyik figürleri.
+
+[GitHub Kategori Dosyası](isikli-geyik.md) | [Ürünleri İncele](https://www.ledmotif.com/isikli-geyik)
+
+### 2. Sevgililer Günü Süslemeleri
+Kalp figürleri ve özel gün konseptlerine yönelik dekoratif ışık süslemeleri.
+
+[GitHub Kategori Dosyası](sevgililer-gunu-suslemeleri.md) | [Ürünleri İncele](https://www.ledmotif.com/sevgililer-gunu-suslemeleri)
+
+### 3. Ramazan Süslemeleri
+Hilal, yıldız ve Ramazan konseptli dekoratif LED aydınlatma ürünleri.
+
+[GitHub Kategori Dosyası](ramazan-suslemeleri.md) | [Ürünleri İncele](https://www.ledmotif.com/ramazan-suslemeleri)
+
+### 4. Direk Motifleri
+Cadde ve sokaklar için dekoratif LED direk motifleri.
+
+[GitHub Kategori Dosyası](direk-motifleri.md) | [Ürünleri İncele](https://www.ledmotif.com/direk-motifleri)
+
+### 5. Cafe Işık Süsleme
+Kafe, restoran ve işletmeler için dekoratif ışık uygulamaları.
+
+[GitHub Kategori Dosyası](cafe-isik-susleme.md) | [Ürünleri İncele](https://www.ledmotif.com/cafe-isik-susleme)
+
+### 6. Işıklı Ağaçlar
+Bahçe, meydan ve açık alanlar için dekoratif LED ışıklı ağaç modelleri.
+
+[GitHub Kategori Dosyası](isikli-agaclar.md) | [Ürünleri İncele](https://www.ledmotif.com/isikli-agaclar)
 
 ## LED Motif Hakkında
 
