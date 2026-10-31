@@ -77,11 +77,6 @@ LED Motif'in ürün ve dekorasyon alanları farklı tasarım ve kullanım ihtiya
 - **İşletme Dekorasyonları:** Kafe, restoran ve ticari alanlar için ışık süsleme seçenekleri.
 ---
 
-## Öne Çıkan Ürünlerimiz
-
-LED Motif'in farklı dekorasyon ihtiyaçlarına yönelik ışıklı ürünlerini aşağıdaki ürün sayfalarından inceleyebilirsiniz.
-
-
  ## Öne Çıkan Ürünlerimiz
 
 LED Motif'in farklı dekorasyon ihtiyaçlarına yönelik ışıklı ürünlerini aşağıdaki ürün sayfalarından ve görsellerinden inceleyebilirsiniz.
